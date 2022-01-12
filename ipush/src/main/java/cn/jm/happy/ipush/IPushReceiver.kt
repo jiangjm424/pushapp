@@ -2,12 +2,12 @@ package cn.jm.happy.ipush
 
 import android.content.Context
 import android.content.Intent
+import android.util.Log
 import cn.jpush.android.api.CmdMessage
 import cn.jpush.android.api.CustomMessage
 import cn.jpush.android.api.NotificationMessage
 import cn.jpush.android.service.JPushMessageReceiver
 import cn.jm.happy.ipush.vendor.Vendor
-import cn.jm.happy.logger.Log
 
 
 class IPushReceiver : JPushMessageReceiver() {

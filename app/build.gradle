@@ -16,6 +16,20 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : applicationId,
+                JPUSH_APPKEY : "c06a65ded9965c21117318ad", //JPush 上注册的包名对应的 Appkey.
+                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+                XIAOMI_APPID : "MI-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                XIAOMI_APPKEY : "MI-xxxxxx",
+                OPPO_APPKEY : "OP-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                OPPO_APPID : "OP-xxxxxx",
+                OPPO_APPSECRET : "OP-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                VIVO_APPKEY : "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                VIVO_APPID : "xxxxxx"
+        ]
+
     }
 
     buildTypes {
