@@ -1,0 +1,7 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+//编译工具版本
+def build_tools_versions = [:]
+build_tools_versions.min_sdk = 24
+build_tools_versions.target_sdk = 31
+build_tools_versions.build_tools = "31.0.0"
+ext.build_tools_versions = build_tools_versions

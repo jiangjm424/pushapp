@@ -4,12 +4,14 @@ plugins {
 }
 
 android {
-    compileSdk 31
+
+    compileSdkVersion build_tools_versions.target_sdk
+    buildToolsVersion build_tools_versions.build_tools
 
     defaultConfig {
+        minSdkVersion build_tools_versions.min_sdk
+        targetSdkVersion build_tools_versions.target_sdk
         applicationId "cn.jm.happy.pushapp"
-        minSdk 23
-        targetSdk 31
         versionCode 1
         versionName "1.0"
 
