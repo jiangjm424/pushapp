@@ -13,7 +13,7 @@ import cn.jm.happy.ipush.vendor.Vendor
 class IPushReceiver : JPushMessageReceiver() {
 
     companion object {
-        private const val TAG = "FcbPushReceiver"
+        private const val TAG = "IPushReceiver"
     }
     override fun onMessage(context: Context?, message: CustomMessage?) {
         super.onMessage(context, message)

@@ -11,7 +11,7 @@ android {
     defaultConfig {
         minSdkVersion build_tools_versions.min_sdk
         targetSdkVersion build_tools_versions.target_sdk
-        applicationId "cn.jm.happy.pushapp"
+        applicationId "com.fcb.bao.agency.debug"
         versionCode 1
         versionName "1.0"
 
@@ -19,7 +19,7 @@ android {
 
         manifestPlaceholders = [
                 JPUSH_PKGNAME : applicationId,
-                JPUSH_APPKEY : "c06a65ded9965c21117318ad", //JPush 上注册的包名对应的 Appkey.
+                JPUSH_APPKEY : "e4d23114ff4f6b757156ebb7", //JPush 上注册的包名对应的 Appkey.
                 JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
                 XIAOMI_APPID : "MI-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
                 XIAOMI_APPKEY : "MI-xxxxxx",
